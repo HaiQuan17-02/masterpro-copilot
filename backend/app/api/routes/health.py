@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 
-router = APIRouter(prefix="/health", tags=["Health"])
+router = APIRouter(tags=["Health"])
 
-@router.get("", summary="Health Check")
-async def health_check():
+@router.get("/health", summary="Health check endpoint")
+def health():
     return {
-        "status": "ok",
-        "service": "masterpro-copilot-backend"
+        "status": "healthy",
+        "service": "MasterPro Copilot Backend"
     }
