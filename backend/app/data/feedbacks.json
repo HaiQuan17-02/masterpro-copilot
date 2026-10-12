@@ -1,0 +1,194 @@
+[
+  {
+    "feedback_id": "fb_527a83eb",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-12T23:24:43.413554"
+  },
+  {
+    "feedback_id": "fb_ebdc48b7",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-12T23:24:43.447103"
+  },
+  {
+    "feedback_id": "fb_c115cd13",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-12T23:27:33.877071"
+  },
+  {
+    "feedback_id": "fb_dfd6fa54",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-12T23:27:33.888267"
+  },
+  {
+    "feedback_id": "fb_0cc3ceb6",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-12T23:33:44.836558"
+  },
+  {
+    "feedback_id": "fb_3fed5923",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-12T23:33:44.845973"
+  },
+  {
+    "feedback_id": "fb_e9c6ea3a",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-13T00:11:14.266565"
+  },
+  {
+    "feedback_id": "fb_c14ad2b8",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-13T00:11:14.289693"
+  },
+  {
+    "feedback_id": "fb_ed7b817a",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-13T00:24:06.314096"
+  },
+  {
+    "feedback_id": "fb_4302387f",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-13T00:24:06.324214"
+  },
+  {
+    "feedback_id": "fb_6aa0d042",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-13T00:31:36.956716"
+  },
+  {
+    "feedback_id": "fb_6615e678",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-13T00:31:36.968286"
+  },
+  {
+    "feedback_id": "fb_50e4e025",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-13T00:40:32.692472"
+  },
+  {
+    "feedback_id": "fb_92c97eca",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-13T00:40:32.703761"
+  },
+  {
+    "feedback_id": "fb_f17ef0a6",
+    "message_id": "msg_002",
+    "rating": "dislike",
+    "reason": "incorrect_step",
+    "comment": "Bước 3 trong giao diện MasterPro v4 nằm ở góc trên bên phải chứ không phải menu trái",
+    "cited_doc_ids": [
+      "doc_hdsd_002"
+    ],
+    "query": "Cách hủy phiếu tạm tính",
+    "created_at": "2026-10-13T00:45:00.174832"
+  },
+  {
+    "feedback_id": "fb_a47d51ff",
+    "message_id": "msg_001",
+    "rating": "like",
+    "reason": null,
+    "comment": "Rất rõ ràng, làm đúng các bước là in hóa đơn được ngay",
+    "cited_doc_ids": [
+      "doc_hdsd_001"
+    ],
+    "query": "Làm thế nào để in lại hóa đơn?",
+    "created_at": "2026-10-13T00:45:00.191876"
+  }
+]

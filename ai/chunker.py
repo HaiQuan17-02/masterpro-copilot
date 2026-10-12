@@ -1,5 +1,6 @@
 from typing import List, Dict, Any, Optional
 import re
+from heading_aware_chunker import HeadingAwareChunker
 
 class DocumentChunker:
     """

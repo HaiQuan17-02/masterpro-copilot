@@ -1,0 +1,478 @@
+{
+  "doc_hdsd_001": {
+    "document_id": "doc_hdsd_001",
+    "title": "Hướng dẫn đăng nhập phần mềm MasterPro",
+    "category": "HDSD",
+    "module": "Đăng nhập",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Đăng nhập MasterPro\n\n## Các bước thực hiện\n1. Nhập Tên đăng nhập và Mật khẩu được cấp.\n2. Chọn Chi nhánh làm việc.\n3. Nhấn nút Đăng nhập để vào hệ thống.",
+    "source": "HDSD_MasterPro_Chung.md",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:14:50.672249",
+    "updated_at": "2026-10-13T00:14:50.672249",
+    "approved_by": "System Admin"
+  },
+  "doc_hdsd_004": {
+    "document_id": "doc_hdsd_004",
+    "title": "Cấu hình máy in và thiết lập thông số hệ thống",
+    "category": "HDSD",
+    "module": "Hệ thống",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Thiết lập máy in POS\n\n## Kết nối máy in\n- Kiểm tra cổng kết nối USB / LAN.\n- Vào Thiết lập hệ thống -> Chọn mẫu in hóa đơn K80.\n- Khởi động lại phần mềm sau khi lưu cấu hình.",
+    "source": "HDSD_ThietBi_POS.md",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "cashier",
+      "admin"
+    ],
+    "created_at": "2026-10-13T00:14:50.672249",
+    "updated_at": "2026-10-13T00:14:50.672249",
+    "approved_by": "System Admin"
+  },
+  "doc_e7b986dd": {
+    "document_id": "doc_e7b986dd",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "draft",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:14:50.719139",
+    "updated_at": "2026-10-13T00:14:50.719139",
+    "approved_by": null
+  },
+  "doc_a610fee3": {
+    "document_id": "doc_a610fee3",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:14:50.770916",
+    "updated_at": "2026-10-13T00:14:50.777979",
+    "approved_by": null
+  },
+  "doc_019e277a": {
+    "document_id": "doc_019e277a",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "draft",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:14:50.791684",
+    "updated_at": "2026-10-13T00:14:50.791684",
+    "approved_by": null
+  },
+  "doc_9d4558bd": {
+    "document_id": "doc_9d4558bd",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:15:54.212371",
+    "updated_at": "2026-10-13T00:15:54.226568",
+    "approved_by": "TesterAdmin"
+  },
+  "doc_9215b630": {
+    "document_id": "doc_9215b630",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:15:54.232111",
+    "updated_at": "2026-10-13T00:15:54.239235",
+    "approved_by": null
+  },
+  "doc_56b0012e": {
+    "document_id": "doc_56b0012e",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "superseded",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": "doc_fef91d98",
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:15:54.268685",
+    "updated_at": "2026-10-13T00:15:54.289963",
+    "approved_by": "Admin"
+  },
+  "doc_fef91d98": {
+    "document_id": "doc_fef91d98",
+    "title": "Quy định chiết khấu đại lý v2 mới 2026",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v2.0",
+    "status": "approved",
+    "content": "# Chiết khấu mới 2026\n\nĐại lý cấp 1 được chiết khấu linh hoạt 15% theo doanh số tháng.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": "doc_56b0012e",
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:15:54.282434",
+    "updated_at": "2026-10-13T00:15:54.297640",
+    "approved_by": "Admin"
+  },
+  "doc_221a5caf": {
+    "document_id": "doc_221a5caf",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:24:06.391298",
+    "updated_at": "2026-10-13T00:24:06.401739",
+    "approved_by": "TesterAdmin"
+  },
+  "doc_54f0d4db": {
+    "document_id": "doc_54f0d4db",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:24:06.409384",
+    "updated_at": "2026-10-13T00:24:06.414148",
+    "approved_by": null
+  },
+  "doc_ba90882a": {
+    "document_id": "doc_ba90882a",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "superseded",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": "doc_8b1ae791",
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:24:06.469081",
+    "updated_at": "2026-10-13T00:24:06.491373",
+    "approved_by": "Admin"
+  },
+  "doc_8b1ae791": {
+    "document_id": "doc_8b1ae791",
+    "title": "Quy định chiết khấu đại lý v2 mới 2026",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v2.0",
+    "status": "approved",
+    "content": "# Chiết khấu mới 2026\n\nĐại lý cấp 1 được chiết khấu linh hoạt 15% theo doanh số tháng.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": "doc_ba90882a",
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:24:06.484426",
+    "updated_at": "2026-10-13T00:24:06.500481",
+    "approved_by": "Admin"
+  },
+  "doc_ca1a61e4": {
+    "document_id": "doc_ca1a61e4",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:31:39.353757",
+    "updated_at": "2026-10-13T00:31:39.364908",
+    "approved_by": "TesterAdmin"
+  },
+  "doc_361c79b8": {
+    "document_id": "doc_361c79b8",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:31:39.372687",
+    "updated_at": "2026-10-13T00:31:39.382366",
+    "approved_by": null
+  },
+  "doc_ac79f219": {
+    "document_id": "doc_ac79f219",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "superseded",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": "doc_5c47fd56",
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:31:39.434269",
+    "updated_at": "2026-10-13T00:31:39.455725",
+    "approved_by": "Admin"
+  },
+  "doc_5c47fd56": {
+    "document_id": "doc_5c47fd56",
+    "title": "Quy định chiết khấu đại lý v2 mới 2026",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v2.0",
+    "status": "approved",
+    "content": "# Chiết khấu mới 2026\n\nĐại lý cấp 1 được chiết khấu linh hoạt 15% theo doanh số tháng.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": "doc_ac79f219",
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:31:39.450726",
+    "updated_at": "2026-10-13T00:31:39.463384",
+    "approved_by": "Admin"
+  },
+  "doc_3ff9a0da": {
+    "document_id": "doc_3ff9a0da",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:40:35.163854",
+    "updated_at": "2026-10-13T00:40:35.174380",
+    "approved_by": "TesterAdmin"
+  },
+  "doc_0a724ccb": {
+    "document_id": "doc_0a724ccb",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:40:35.183273",
+    "updated_at": "2026-10-13T00:40:35.190314",
+    "approved_by": null
+  },
+  "doc_45ccc20a": {
+    "document_id": "doc_45ccc20a",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "superseded",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": "doc_c5fa77e4",
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:40:35.269750",
+    "updated_at": "2026-10-13T00:40:35.304941",
+    "approved_by": "Admin"
+  },
+  "doc_c5fa77e4": {
+    "document_id": "doc_c5fa77e4",
+    "title": "Quy định chiết khấu đại lý v2 mới 2026",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v2.0",
+    "status": "approved",
+    "content": "# Chiết khấu mới 2026\n\nĐại lý cấp 1 được chiết khấu linh hoạt 15% theo doanh số tháng.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": "doc_45ccc20a",
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:40:35.297675",
+    "updated_at": "2026-10-13T00:40:35.317732",
+    "approved_by": "Admin"
+  },
+  "doc_450fe694": {
+    "document_id": "doc_450fe694",
+    "title": "Chính sách đổi trả hàng hóa trong 7 ngày",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "approved",
+    "content": "# Chính sách đổi trả\n\n## Điều kiện áp dụng\n- Hàng hóa còn nguyên tem mác.\n- Có hóa đơn mua hàng MasterPro hợp lệ.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:45:02.668001",
+    "updated_at": "2026-10-13T00:45:02.679989",
+    "approved_by": "TesterAdmin"
+  },
+  "doc_637ea51c": {
+    "document_id": "doc_637ea51c",
+    "title": "Quy trình đối soát mã coupon khuyến mãi dịp Tết",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "under_review",
+    "content": "# Đối soát coupon Tết\n\n## Hướng dẫn thu ngân\n- Quét mã vạch trên ứng dụng di động.\n- Áp dụng giảm tối đa 20% tổng hóa đơn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": null,
+    "chunks_count": 0,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:45:02.686932",
+    "updated_at": "2026-10-13T00:45:02.692965",
+    "approved_by": null
+  },
+  "doc_39f6668d": {
+    "document_id": "doc_39f6668d",
+    "title": "Quy định chiết khấu đại lý v1 cũ",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v1.0",
+    "status": "superseded",
+    "content": "# Chiết khấu cũ\n\nĐại lý cấp 1 được chiết khấu cố định 10% trên giá bán buôn.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": null,
+    "superseded_by": "doc_85d9a563",
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:45:02.766052",
+    "updated_at": "2026-10-13T00:45:02.787345",
+    "approved_by": "Admin"
+  },
+  "doc_85d9a563": {
+    "document_id": "doc_85d9a563",
+    "title": "Quy định chiết khấu đại lý v2 mới 2026",
+    "category": "HDSD",
+    "module": "Bán hàng",
+    "version_id": "v2.0",
+    "status": "approved",
+    "content": "# Chiết khấu mới 2026\n\nĐại lý cấp 1 được chiết khấu linh hoạt 15% theo doanh số tháng.",
+    "source": "Tài liệu MasterPro ERP/POS",
+    "supersedes_doc_id": "doc_39f6668d",
+    "superseded_by": null,
+    "chunks_count": 1,
+    "role_access": [
+      "all"
+    ],
+    "created_at": "2026-10-13T00:45:02.782851",
+    "updated_at": "2026-10-13T00:45:02.797055",
+    "approved_by": "Admin"
+  }
+}

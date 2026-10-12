@@ -1,66 +1,79 @@
 from typing import List, Dict, Any, Optional
 import os
 from app.core.config import settings
+from app.services.search_service import SearchService
 
 class BaseAIProvider:
     async def generate_response(self, question: str, history: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]:
         raise NotImplementedError
 
-class MockAIProvider(BaseAIProvider):
+class RAGAIProvider(BaseAIProvider):
     """
-    Mock AI Provider for development and testing without requiring external API keys.
-    Simulates retrieval-augmented answers with realistic citations.
+    RAG-powered AI Provider for MasterPro Copilot.
+    Retrieves grounded context from Qdrant Vector Store and builds structured answers with citations.
     """
     async def generate_response(self, question: str, history: Optional[List[Dict[str, str]]] = None) -> Dict[str, Any]:
-        q_lower = question.lower()
+        q_clean = question.strip()
+        q_lower = q_clean.lower()
 
-        if "máy in" in q_lower or "printer" in q_lower or "in" in q_lower:
+        # Handle greetings
+        if q_lower in ["chào", "xin chào", "hello", "hi", "alo", "chào bot"]:
             return {
-                "answer": "Để xử lý sự cố máy in không nhận lệnh hoặc không in được, bạn có thể thực hiện theo các bước sau:\n1. **Kiểm tra nguồn điện**: Đảm bảo dây nguồn cắm chặt và đèn nguồn máy in sáng xanh.\n2. **Kiểm tra kết nối cáp / mạng**: Rút và cắm lại cáp USB hoặc kiểm tra địa chỉ IP máy in trong mạng LAN nội bộ.\n3. **Kiểm tra khay giấy và mực in**: Xác nhận khay nạp còn giấy chuẩn khổ và hộp mực không bị kẹt.\n4. **Khởi động lại dịch vụ Print Spooler** trên máy tính hoặc restart máy in để xóa hàng đợi lệnh in cũ.",
-                "citations": [
-                    {
-                        "title": "Hướng dẫn xử lý lỗi thiết bị bán hàng & Máy in",
-                        "document": "HDSD_ThietBi_MasterPro_v1.2.pdf",
-                        "page": 15,
-                        "chunk_id": "chunk_doc_001_p15",
-                        "score": 0.94
-                    },
-                    {
-                        "title": "Cấu hình cổng COM/USB máy in hóa đơn bill",
-                        "document": "CauHinh_PhanCung_v2.0.pdf",
-                        "page": 7,
-                        "chunk_id": "chunk_doc_003_p7",
-                        "score": 0.88
-                    }
-                ],
-                "provider": "mock",
-                "model": "mock-rag-v1"
-            }
-        elif "chào" in q_lower or "hello" in q_lower or "hi" in q_lower:
-            return {
-                "answer": "Xin chào! Tôi là **MasterPro Copilot** - trợ lý AI hỗ trợ tra cứu tài liệu vận hành và kỹ thuật của hệ thống MasterPro. Tôi có thể giúp gì cho bạn hôm nay?",
+                "answer": "Xin chào! Tôi là **MasterPro Copilot** - trợ lý AI hỗ trợ tra cứu quy trình vận hành và tài liệu kỹ thuật MasterPro ERP/POS.\n\nBạn có thể hỏi tôi về:\n- Quy trình mở ca, kết ca, khóa sổ bán hàng\n- Thao tác lập phiếu nhập kho, xuất bán, đổi trả\n- Xử lý lỗi máy in hóa đơn, máy quét mã vạch\n- Quản lý danh mục hàng hóa, khách hàng và công nợ.",
                 "citations": [],
-                "provider": "mock",
-                "model": "mock-rag-v1"
+                "provider": "masterpro-rag",
+                "model": "qdrant-retrieval-v1"
+            }
+
+        # Query Qdrant Vector Store
+        try:
+            search_service = SearchService.get_instance()
+            search_result = search_service.search(query=q_clean, limit=3, score_threshold=0.30)
+            hits = search_result.get("results", [])
+        except Exception as e:
+            hits = []
+
+        if hits:
+            top_hit = hits[0]
+            # Synthesize answer from top retrieved chunks
+            answer_parts = [
+                f"Dựa trên tài liệu nghiệp vụ MasterPro về **{top_hit.get('title', 'Quy trình')}**:",
+                "",
+                top_hit.get("content", "")
+            ]
+
+            # If there are additional relevant points from second hit
+            if len(hits) > 1 and hits[1].get("score", 0) >= 0.40:
+                answer_parts.extend([
+                    "",
+                    f"**Bổ sung từ {hits[1].get('title')}:**",
+                    hits[1].get("content", "")
+                ])
+
+            citations = []
+            for h in hits:
+                citations.append({
+                    "title": h.get("title"),
+                    "document": h.get("source") or "Tài liệu MasterPro",
+                    "page": h.get("page") or 1,
+                    "chunk_id": f"chunk_{h.get('document_id')}_{h.get('chunk_index', 1)}",
+                    "score": h.get("score"),
+                    "heading_path": h.get("heading_path")
+                })
+
+            return {
+                "answer": "\n".join(answer_parts),
+                "citations": citations,
+                "provider": "masterpro-rag",
+                "model": "qdrant-retrieval-v1"
             }
         else:
             return {
-                "answer": f"Hệ thống đã tiếp nhận câu hỏi của bạn: \"{question}\". Dựa trên cơ sở tri thức hiện tại của MasterPro Copilot, tính năng và quy trình liên quan đã sẵn sàng.",
-                "citations": [
-                    {
-                        "title": "Tài liệu tổng quan hệ thống MasterPro Copilot",
-                        "document": "TongQuan_MasterPro_2026.pdf",
-                        "page": 1,
-                        "chunk_id": "chunk_overview_01",
-                        "score": 0.82
-                    }
-                ],
-                "provider": "mock",
-                "model": "mock-rag-v1"
+                "answer": f"Không tìm thấy thông tin đủ tin cậy trong tài liệu MasterPro cho câu hỏi: *\"{q_clean}\"*.\n\nVui lòng thử lại với từ khóa cụ thể hơn (ví dụ: *'kết số'*, *'máy in'*, *'phiếu xuất kho'*), hoặc liên hệ chuyên viên hỗ trợ cấp 2.",
+                "citations": [],
+                "provider": "masterpro-rag",
+                "model": "qdrant-retrieval-v1"
             }
 
 def get_ai_provider() -> BaseAIProvider:
-    if settings.AI_PROVIDER.lower() == "mock":
-        return MockAIProvider()
-    # Placeholder for OpenAI or Gemini when API key is provided
-    return MockAIProvider()
+    return RAGAIProvider()

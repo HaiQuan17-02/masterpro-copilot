@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Q01",
+    "query": "Làm thế nào để đăng nhập vào phần mềm MasterPro?",
+    "expected_doc_id": "doc_hdsd_001",
+    "expected_category": "HDSD",
+    "expected_module": "Đăng nhập",
+    "expected_keywords": ["Đăng nhập", "Chi nhánh", "Tên đăng nhập", "Mật khẩu"]
+  },
+  {
+    "id": "Q02",
+    "query": "Cách cấu hình kết số và khóa sổ dữ liệu kế toán",
+    "expected_doc_id": "doc_hdsd_002",
+    "expected_category": "HDSD",
+    "expected_module": "Hệ thống",
+    "expected_keywords": ["kết số", "khóa sổ", "admin"]
+  },
+  {
+    "id": "Q03",
+    "query": "Tra cứu nhật ký thao tác và theo dõi sự kiện của các tài khoản",
+    "expected_doc_id": "doc_hdsd_003",
+    "expected_category": "HDSD",
+    "expected_module": "Hệ thống",
+    "expected_keywords": ["Theo dõi sự kiện", "nhật ký", "log"]
+  },
+  {
+    "id": "Q04",
+    "query": "Cấu hình máy in và thiết lập thông số hệ thống",
+    "expected_doc_id": "doc_hdsd_004",
+    "expected_category": "HDSD",
+    "expected_module": "Hệ thống",
+    "expected_keywords": ["máy in", "Thiết lập hệ thống", "khởi động lại"]
+  },
+  {
+    "id": "Q05",
+    "query": "Hướng dẫn thêm mới danh mục kho hàng",
+    "expected_doc_id": "doc_hdsd_005",
+    "expected_category": "HDSD",
+    "expected_module": "Kho hàng",
+    "expected_keywords": ["Mã kho", "Tên kho", "viết liền không dấu"]
+  },
+  {
+    "id": "Q06",
+    "query": "Có đổi được mã kho hàng sau khi đã phát sinh chứng từ không?",
+    "expected_doc_id": "doc_hdsd_006",
+    "expected_category": "HDSD",
+    "expected_module": "Kho hàng",
+    "expected_keywords": ["chỉnh sửa", "Không thể đổi mã kho"]
+  },
+  {
+    "id": "Q07",
+    "query": "Tạo phương thức điều chỉnh kho tăng khi kiểm kê thừa",
+    "expected_doc_id": "doc_hdsd_007",
+    "expected_category": "HDSD",
+    "expected_module": "Kho hàng",
+    "expected_keywords": ["điều chỉnh tăng", "nhập kiểm kê", "thừa"]
+  },
+  {
+    "id": "Q08",
+    "query": "Hủy hàng hỏng và hàng hết hạn sử dụng thì làm thế nào?",
+    "expected_doc_id": "doc_hdsd_008",
+    "expected_category": "HDSD",
+    "expected_module": "Kho hàng",
+    "expected_keywords": ["điều chỉnh giảm", "hàng hỏng", "hết date"]
+  },
+  {
+    "id": "Q09",
+    "query": "Tạo phiếu chi tiền khác và phương thức giảm quỹ",
+    "expected_doc_id": "doc_hdsd_009",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["giảm quỹ", "Chi khác", "Đối tượng"]
+  },
+  {
+    "id": "Q10",
+    "query": "Ghi nhận các khoản thu ngoài bán hàng và tăng quỹ",
+    "expected_doc_id": "doc_hdsd_010",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["tăng quỹ", "Thu khác"]
+  },
+  {
+    "id": "Q11",
+    "query": "Khai báo thêm mới tài khoản ngân hàng hoặc thẻ",
+    "expected_doc_id": "doc_hdsd_011",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["Tài khoản", "ngân hàng", "Số dư đầu kỳ"]
+  },
+  {
+    "id": "Q12",
+    "query": "Cập nhật danh mục tỷ giá tiền tệ ngoại tệ so với VND",
+    "expected_doc_id": "doc_hdsd_012",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["Tiền tệ", "Tỷ giá", "quy đổi"]
+  },
+  {
+    "id": "Q13",
+    "query": "Điều chuyển tiền mặt vào tài khoản ngân hàng hoặc giữa các chi nhánh",
+    "expected_doc_id": "doc_hdsd_013",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["Luân chuyển tiền", "tiền mặt", "chi nhánh"]
+  },
+  {
+    "id": "Q14",
+    "query": "Quy tắc thiết lập kỳ hạn thanh toán và hạn nợ đối tác",
+    "expected_doc_id": "doc_hdsd_014",
+    "expected_category": "HDSD",
+    "expected_module": "Sổ quỹ",
+    "expected_keywords": ["Kỳ hạn thanh toán", "tuổi nợ", "cảnh báo"]
+  },
+  {
+    "id": "Q15",
+    "query": "Tạo cây phân cấp ngành hàng và nhóm sản phẩm",
+    "expected_doc_id": "doc_hdsd_015",
+    "expected_category": "HDSD",
+    "expected_module": "Cửa hàng",
+    "expected_keywords": ["Ngành hàng", "Nhóm sản phẩm"]
+  },
+  {
+    "id": "Q16",
+    "query": "Khai báo danh mục nhân viên, chức vụ và thu ngân",
+    "expected_doc_id": "doc_hdsd_016",
+    "expected_category": "HDSD",
+    "expected_module": "Cửa hàng",
+    "expected_keywords": ["Nhân viên", "Chức vụ", "thu ngân"]
+  },
+  {
+    "id": "Q17",
+    "query": "Cách phân quyền người dùng theo từng kho và chức năng",
+    "expected_doc_id": "doc_hdsd_019",
+    "expected_category": "HDSD",
+    "expected_module": "Tài khoản",
+    "expected_keywords": ["Phân quyền", "kho", "chức năng"]
+  },
+  {
+    "id": "Q18",
+    "query": "Thao tác thêm mới một sản phẩm đơn lẻ vào phần mềm",
+    "expected_doc_id": "doc_hdsd_020",
+    "expected_category": "HDSD",
+    "expected_module": "Sản phẩm",
+    "expected_keywords": ["Mã hàng", "Tên hàng", "Giá nhập", "Giá bán"]
+  },
+  {
+    "id": "Q19",
+    "query": "Điều kiện để xóa một sản phẩm khỏi danh mục",
+    "expected_doc_id": "doc_hdsd_022",
+    "expected_category": "HDSD",
+    "expected_module": "Sản phẩm",
+    "expected_keywords": ["Xóa", "chưa từng phát sinh chứng từ"]
+  },
+  {
+    "id": "Q20",
+    "query": "Cách nhập danh sách sản phẩm hàng loạt từ file Excel",
+    "expected_doc_id": "doc_hdsd_023",
+    "expected_category": "HDSD",
+    "expected_module": "Sản phẩm",
+    "expected_keywords": ["Nhập Hàng Loạt", "Excel", "Map cột"]
+  },
+  {
+    "id": "Q21",
+    "query": "Cập nhật giá bán danh mục từ file Excel",
+    "expected_doc_id": "doc_hdsd_024",
+    "expected_category": "HDSD",
+    "expected_module": "Sản phẩm",
+    "expected_keywords": ["Cập nhật giá", "Giá mua", "Giá bán"]
+  },
+  {
+    "id": "Q22",
+    "query": "Khai báo định mức nguyên liệu cho thành phẩm",
+    "expected_doc_id": "doc_hdsd_025",
+    "expected_category": "HDSD",
+    "expected_module": "Sản phẩm",
+    "expected_keywords": ["thành phẩm", "nguyên liệu", "Số lượng"]
+  },
+  {
+    "id": "Q23",
+    "query": "Thêm mới đối tác vừa là khách hàng vừa là nhà cung cấp",
+    "expected_doc_id": "doc_hdsd_028",
+    "expected_category": "HDSD",
+    "expected_module": "Khách hàng",
+    "expected_keywords": ["Khách hàng", "Nhà cung cấp", "tick cả hai"]
+  },
+  {
+    "id": "Q24",
+    "query": "Nhập điểm tích lũy đầu kỳ cho khách hàng từ Excel",
+    "expected_doc_id": "doc_hdsd_031",
+    "expected_category": "HDSD",
+    "expected_module": "Khách hàng",
+    "expected_keywords": ["điểm đầu kỳ", "cộng dồn", "tích lũy"]
+  },
+  {
+    "id": "Q25",
+    "query": "Nhập số dư công nợ đầu kỳ của đối tác",
+    "expected_doc_id": "doc_hdsd_032",
+    "expected_category": "HDSD",
+    "expected_module": "Khách hàng",
+    "expected_keywords": ["Công nợ đầu kỳ", "phải thu", "phải trả"]
+  },
+  {
+    "id": "Q26",
+    "query": "Tạo đơn đặt mua hàng từ nhà cung cấp có làm tăng tồn kho không?",
+    "expected_doc_id": "doc_hdsd_033",
+    "expected_category": "HDSD",
+    "expected_module": "Mua hàng",
+    "expected_keywords": ["Đơn Đặt", "chưa làm thay đổi tồn kho"]
+  },
+  {
+    "id": "Q27",
+    "query": "Quy trình chuyển đơn đặt mua hàng thành phiếu nhập kho",
+    "expected_doc_id": "doc_hdsd_035",
+    "expected_category": "HDSD",
+    "expected_module": "Mua hàng",
+    "expected_keywords": ["Chuyển thành phiếu nhập hàng", "Duyệt"]
+  },
+  {
+    "id": "Q28",
+    "query": "Xuất trả hàng cho nhà cung cấp theo chứng từ hóa đơn nhập",
+    "expected_doc_id": "doc_hdsd_037",
+    "expected_category": "HDSD",
+    "expected_module": "Mua hàng",
+    "expected_keywords": ["Trả Hàng", "Chứng từ", "giảm tồn kho"]
+  },
+  {
+    "id": "Q29",
+    "query": "Thao tác tạo phiếu bán lẻ tại quầy thu ngân POS",
+    "expected_doc_id": "doc_hdsd_039",
+    "expected_category": "HDSD",
+    "expected_module": "Bán hàng",
+    "expected_keywords": ["bán lẻ", "mã vạch", "F4", "thu ngân"]
+  },
+  {
+    "id": "Q30",
+    "query": "Cách tạo phiếu bán buôn hóa đơn xuất bán công nợ",
+    "expected_doc_id": "doc_hdsd_040",
+    "expected_category": "HDSD",
+    "expected_module": "Bán hàng",
+    "expected_keywords": ["bán buôn", "Đơn Bán", "công nợ"]
+  }
+]
