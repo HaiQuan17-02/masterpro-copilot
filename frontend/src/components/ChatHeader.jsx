@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, Sparkles, Activity } from 'lucide-react';
+import { Bot } from 'lucide-react';
 
 function ChatHeader({ backendStatus = 'online' }) {
   const isHealthy = backendStatus === 'healthy' || backendStatus === 'online';

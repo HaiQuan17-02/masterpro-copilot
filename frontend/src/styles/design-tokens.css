@@ -1,0 +1,96 @@
+/**
+ * MASTERPRO COPILOT — DESIGN TOKENS
+ * Semantic color, typography, spacing, radius, and elevation tokens.
+ */
+
+:root {
+  /* --- Brand & Theme Colors --- */
+  --mp-primary: #2563eb;
+  --mp-primary-hover: #1d4ed8;
+  --mp-primary-subtle: rgba(37, 99, 235, 0.12);
+  --mp-secondary: #4f46e5;
+  --mp-secondary-hover: #4338ca;
+  --mp-secondary-subtle: rgba(79, 70, 229, 0.12);
+
+  /* --- Surfaces & Backgrounds --- */
+  --mp-bg: #0b0f19;
+  --mp-bg-pattern: #0f172a;
+  --mp-surface: #111827;
+  --mp-surface-raised: #1f2937;
+  --mp-surface-overlay: rgba(17, 24, 39, 0.85);
+
+  /* --- Borders --- */
+  --mp-border: #374151;
+  --mp-border-subtle: #1f2937;
+  --mp-border-active: #3b82f6;
+
+  /* --- Typography --- */
+  --mp-text-primary: #f9fafb;
+  --mp-text-secondary: #9ca3af;
+  --mp-text-muted: #6b7280;
+  --mp-text-inverse: #0f172a;
+
+  /* --- Feedback & Status --- */
+  --mp-success: #22c55e;
+  --mp-success-subtle: rgba(34, 197, 94, 0.15);
+  --mp-warning: #f59e0b;
+  --mp-warning-subtle: rgba(245, 158, 11, 0.15);
+  --mp-error: #ef4444;
+  --mp-error-subtle: rgba(239, 68, 68, 0.15);
+  --mp-info: #38bdf8;
+  --mp-info-subtle: rgba(56, 189, 248, 0.15);
+
+  /* --- Spacing --- */
+  --mp-space-1: 4px;
+  --mp-space-2: 8px;
+  --mp-space-3: 12px;
+  --mp-space-4: 16px;
+  --mp-space-5: 20px;
+  --mp-space-6: 24px;
+  --mp-space-8: 32px;
+
+  /* --- Border Radius --- */
+  --mp-radius-sm: 6px;
+  --mp-radius-md: 10px;
+  --mp-radius-lg: 14px;
+  --mp-radius-xl: 20px;
+  --mp-radius-full: 9999px;
+
+  /* --- Elevation / Shadows --- */
+  --mp-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  --mp-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.35), 0 2px 4px -2px rgba(0, 0, 0, 0.25);
+  --mp-shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+  --mp-shadow-glow: 0 0 20px rgba(59, 130, 246, 0.35);
+
+  /* --- Transitions --- */
+  --mp-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Mode Overrides (Optional / Toggleable) */
+.light {
+  --mp-primary: #2563eb;
+  --mp-primary-hover: #1d4ed8;
+  --mp-primary-subtle: rgba(37, 99, 235, 0.08);
+  --mp-secondary: #4f46e5;
+  --mp-secondary-hover: #4338ca;
+  --mp-secondary-subtle: rgba(79, 70, 229, 0.08);
+
+  --mp-bg: #f8fafc;
+  --mp-bg-pattern: #f1f5f9;
+  --mp-surface: #ffffff;
+  --mp-surface-raised: #f1f5f9;
+  --mp-surface-overlay: rgba(255, 255, 255, 0.9);
+
+  --mp-border: #e2e8f0;
+  --mp-border-subtle: #f1f5f9;
+  --mp-border-active: #2563eb;
+
+  --mp-text-primary: #0f172a;
+  --mp-text-secondary: #64748b;
+  --mp-text-muted: #94a3b8;
+  --mp-text-inverse: #ffffff;
+
+  --mp-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --mp-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --mp-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+}

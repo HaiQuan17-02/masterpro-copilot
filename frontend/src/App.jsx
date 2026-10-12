@@ -1,6 +1,6 @@
 import React from 'react';
 import Chat from './pages/Chat';
-import { Layers, ShieldCheck, Terminal, Cpu } from 'lucide-react';
+import { ShieldCheck, Terminal, Cpu } from 'lucide-react';
 
 export default function App() {
   return (
